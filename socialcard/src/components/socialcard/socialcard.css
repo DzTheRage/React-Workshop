@@ -1,0 +1,58 @@
+.CardContainer {
+  background:none;
+  width:500px;
+  margin:auto;
+  border-bottom: 1px solid grey;
+  padding-bottom:30px;
+  padding-top:30px;
+}
+.iconNumber {
+    padding-left:10px;
+}
+h2 {
+  font-size:18px;
+  font-weight:bold;
+  padding:10px;
+}
+h2 span {
+  color:grey;
+  font-weight:normal;
+}
+p {
+  padding-top:10px;
+  padding-right:10px;
+  padding-left:10px;
+}
+p span {
+  color:grey;
+  font-weight:normal;
+}
+.ImgCss {
+  width:100%;
+}
+.CardImgCaption {
+    padding: 10px 10px 0 10px;
+}
+.CardMaterials {
+    border: 1px solid grey;
+    padding-bottom:10px;
+}
+.CardStats {
+  padding-top:10px;
+}
+.StatDiv {
+  display:inline-block;
+  padding-right:20px;
+}
+.fa-comment-o, .fa-comment-o span {
+    color:#243F5C;
+}
+.fa-retweet, .fa-retweet span {
+    color:green;
+}
+.fa-heart, .fa-heart span {
+    color:#E33D3D;
+}
+.authorLink {
+    color:#548FCD;
+}
