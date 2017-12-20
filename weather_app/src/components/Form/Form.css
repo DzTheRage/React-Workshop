@@ -1,0 +1,35 @@
+.Form {
+    width:100%;
+    height:25vh;
+    background-color:blue;
+    margin: 0;
+}
+
+.FieldSet {
+    border: 1px solid #e6eaed;
+    border-radius: 3px;
+    padding: 30px;
+}
+
+.Legend {
+    color: #fff;
+    text-align: left;
+    font-weight: 500;
+    font-size: 1pc;
+}
+
+.Input {
+    background: transparent;
+    box-shadow: 0 none;
+    border: 0 none;
+    border: 0px solid transparent;
+    border-bottom: 2px solid transparent;
+    color: #fff;
+    border-radius: 0;
+    font-size: 42px;
+    display: block;
+    padding: 10px;
+    width: 100%;
+    border-radius: 3px;
+    -webkit-appearance: none;
+}

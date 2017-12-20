@@ -1,0 +1,64 @@
+.WeekContainer {
+    height: 75vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.WeekContainer .CurrentDay {
+    height: 100%;
+    float: left;
+    width: 30%;
+    overflow: hidden;
+    background-color:red;
+}
+
+.WeekContainer .OtherDays {
+    overflow: hidden;
+    width: 70%;
+    float: left;
+    height: 100%;
+    background-color:red;
+}
+
+.WeekContainer .OtherDays .OtherDayColumns {
+    -webkit-transition: background .4s ease-in-out;
+    transition: background .4s ease-in-out;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    float: left;
+    width: 14.28571%;
+    height: 100%;
+}
+
+/* Other Days */
+.OtherDays .WeatherItem .Location {
+    display:none;
+}
+.DayOne {
+    background-color:rgba(0,0,0,0.1);
+}
+.DayTwo {
+    background-color:rgba(0,0,0,0.2);
+}
+.DayThree {
+    background-color:rgba(0,0,0,0.3);
+}
+.DayFour {
+    background-color:rgba(0,0,0,0.4);
+}
+.DayFive {
+    background-color:rgba(0,0,0,0.5);
+}
+.DaySix {
+    background-color:rgba(0,0,0,0.6);
+}
+.DaySeven {
+    background-color:rgba(0,0,0,0.7);
+}
